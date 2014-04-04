@@ -4,7 +4,7 @@ DEFAULT_SSL="/etc/apache2/sites-available/default-ssl"
 sudo debconf-set-selections <<< 'mysql-server-5.5 mysql-server/root_password password vagrant'
 sudo debconf-set-selections <<< 'mysql-server-5.5 mysql-server/root_password_again password vagrant'
 sudo apt-get update
-sudo apt-get -y install mysql-server-5.5 php5-mysql apache2 php5 php5-curl php5-gd vim sendmail
+sudo apt-get -y install mysql-server-5.5 php5-mysql apache2 php5 php5-curl php5-gd libapache2-mod-php5 vim sendmail
 
 
 ## Create a root folder for apache
