@@ -60,11 +60,11 @@ echo "<VirtualHost *:80>
 	DocumentRoot /vagrant/project1
 </VirtualHost>
 <VirtualHost *:80>
-	ServerName b.api
+	ServerName proj.2
 	DocumentRoot /vagrant/project2
 </VirtualHost>
 <VirtualHost *:80>
-	ServerName b.grid
+	ServerName proj.3
 	DocumentRoot /vagrant/project3
 </VirtualHost> " >> $DEFAULT
 
